@@ -1,9 +1,9 @@
 <?php require_once 'config.php'; ?>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Recipe Finder & Meal Planner</title>
+  
+  <title>Cook-Book Pro</title>
   <link rel="stylesheet" href="assets/style.css">
   <style>
     body {
@@ -42,7 +42,7 @@
 </head>
 <body>
   <div class="splash">
-    <h1>Recipe Finder &amp; Meal Planner</h1>
+    <h1>Cook-Book Pro</h1>
     <p>Loading</p>
     <div class="loader"><span></span></div>
   </div>
