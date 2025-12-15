@@ -43,7 +43,7 @@
 <body>
   <div class="splash">
     <h1>Recipe Finder &amp; Meal Planner</h1>
-    <p>Loading your kitchen universe...</p>
+    <p>Loading</p>
     <div class="loader"><span></span></div>
   </div>
 </body>
