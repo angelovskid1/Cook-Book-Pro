@@ -13,8 +13,8 @@ $isGuest = !$isLoggedIn && (isset($_GET['guest']) || ($_SESSION['guest'] ?? fals
 <body>
 <?php include 'nav.php'; ?>
 
-<header class="hero">
-  <div class="hero-content">
+<header class="top">
+  <div class="topstuff">
     <h1>Weekly Meal Plan</h1>
     <p>Plan your week. Add recipes from the Search page, then come back here to review.</p>
 
