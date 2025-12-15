@@ -9,7 +9,7 @@
     body {
       display:flex;align-items:center;justify-content:center;
       min-height:100vh;background:#f5f5ff;margin:0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: "Segoe UI", sans-serif;
     }
     .splash {
       text-align:center;padding:2rem 3rem;border-radius:24px;
