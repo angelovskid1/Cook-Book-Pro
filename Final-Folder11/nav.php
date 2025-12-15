@@ -13,7 +13,7 @@ $guestQuery = $isGuest ? '?guest=1' : '';
 
 <nav class="main-nav">
   <div class="nav-left">
-    <a href="home.php<?php echo $guestQuery; ?>" class="logo">Recipe Finder</a>
+    <a href="home.php<?php echo $guestQuery; ?>" class="logo">Cook-Book Pro</a>
   </div>
 
   <ul class="nav-links">
