@@ -13,8 +13,8 @@ $isGuest = !$isLoggedIn && (isset($_GET['guest']) || ($_SESSION['guest'] ?? fals
 <body>
 <?php include 'nav.php'; ?>
 
-<header class="hero">
-  <div class="hero-content">
+<header class="top">
+  <div class="topstuff">
     <h1>Search Recipes</h1>
     <p>Search by name or ingredient, then filter by culture and category.</p>
 
