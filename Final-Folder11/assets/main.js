@@ -12,7 +12,7 @@ const favsDiv       = document.getElementById("favs");
 const weekGridDiv   = document.getElementById("weekGrid");
 const savePlanBtn   = document.getElementById("savePlanBtn");
 
-let favorites = [
+let favorites = [];
 let weeklyPlan = {};
 const days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
 
