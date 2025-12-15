@@ -317,12 +317,12 @@ function importLocalToServer() {
   }
 
   try {
-    const rawList = JSON.parse(localStorage.getItem("ingredient_list") || "[]");
-    if (rawList.length) {
+    const theList = JSON.parse(localStorage.getItem("ingredient_list") || "[]");
+    if (theist.length) {
       fetch("import_list.php", {
         method: "POST",
         headers: {"Content-Type": "application/json"},
-        body: JSON.stringify(rawList)
+        body: JSON.stringify(theList)
       });
     }
   } catch {}
